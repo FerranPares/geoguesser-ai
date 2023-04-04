@@ -1,7 +1,7 @@
 from typing import Optional
 
 import requests
-from etl.coordinate import Coordinate
+from geoguesser_ai.etl.coordinate import Coordinate
 
 
 class StreetViewStaticApi:

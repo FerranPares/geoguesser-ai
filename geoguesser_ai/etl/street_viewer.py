@@ -2,8 +2,8 @@ from dataclasses import dataclass
 from PIL import Image
 from io import BytesIO
 
-from etl.api import StreetViewStaticApi
-from etl.coordinate import Coordinate
+from geoguesser_ai.etl.api import StreetViewStaticApi
+from geoguesser_ai.etl.coordinate import Coordinate
 
 
 @dataclass
